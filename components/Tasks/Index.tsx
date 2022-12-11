@@ -64,7 +64,7 @@ export default function Index(props: ICard) {
       <CardActions>
         {props.status === false ? (
           <Button size="small" onClick={handleUpdateJobStatu} color="success" endIcon={<CheckIcon />}>
-            BİTİR
+            Bitir
           </Button>
         ) : (
           <Button size="small" onClick={handleUpdateJobStatu} color="warning" endIcon={<PlayArrowIcon />}>
