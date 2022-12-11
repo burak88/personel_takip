@@ -41,22 +41,6 @@ export default function Index(props: IUser) {
   }
 
   return (
-  //   <Box
-  //   component="form"
-  //   sx={{
-  //     '& > :not(style)': { m: 1 },
-  //   }}
-  //   noValidate
-  //   autoComplete="off"
-  // >
-  //   <Input defaultValue={props.name} onChange={(e:any) => handleChange(e,"name")}  />
-  //   <Input defaultValue={props.surname} onChange={(e:any) => handleChange(e,"surname")} />
-  //   <Input defaultValue={props.email} onChange={(e:any) => handleChange(e,"email")}  />
-  //   <Input defaultValue={props.password}  onChange={(e:any) => handleChange(e,"password")}/>
-  //   <Button variant="contained"  onClick={()=>handleUserUpdate()} endIcon={<SendIcon />}>
-  //           Güncelle
-  //        </Button>
-  // </Box>
 
      <Box
        component="form"
